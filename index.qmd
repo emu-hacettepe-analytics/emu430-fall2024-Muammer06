@@ -1,12 +1,18 @@
 ---
-title: "Welcome to My Analytics Lab"
-sidebar: false 
+title: "<center> <span style='color: black;'>Welcome to Personel Lab</span></center>"
+sidebar: true 
 ---
 
-Hello! My name is Muammer.
 
-This is my personal webpage.
+<center> <!-- Yazıları ortalamak için center etiketi -->
+  <strong style="color: black; font-size: 24px;"> <!-- Yazı rengini ve puntoyu ayarlama -->
+    Hello! My name is Muammer, <br><br>
+    This is my personal webpage.<br><br>
+    I will share my homeworks and research in this website, keep follow!
+  </strong>
+</center>
 
-Please stay tuned to follow my works on data analytics, blog posts, and more.
-
-This is our template.
+<!-- GIF'i de ortalamak için -->
+<center>
+  <img src="data/memati.gif" alt="Description of GIF" width="500px" height="300px">
+</center>

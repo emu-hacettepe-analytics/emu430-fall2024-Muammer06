@@ -1,1 +1,18 @@
 /* css styles */
+body {
+    background-image: url('data/2060564.jpg'); /* Arka plan resmi */
+    background-size: cover; /* Tüm sayfayı kaplar */
+    background-repeat: repeat; /* Tekrar eder */
+  }
+  
+  /* Arka planı yatay olarak hareket ettir */
+  @keyframes moveBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+
+

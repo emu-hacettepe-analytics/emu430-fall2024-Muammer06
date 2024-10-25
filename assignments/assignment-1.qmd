@@ -1,15 +1,77 @@
 ---
-title: "Assignment 1"
+title: "Assigment 1"
+author: "Muammer"
+format: html
 ---
 
-# Assignment 1
+
+## Chapter 1
+
+I choose the video with - Mustafa Baydoğan.
+
+#
+Mustafa Baydoğan gave a talk on the interaction between data science and industrial engineering. In his talk, he emphasized how industrial engineers' skills in mathematical modeling and system understanding provide a great advantage in solving data science problems. He also explained in detail how real-world problems can be approached from this perspective, providing examples from various industries.
+
+
+###  Questions
+-   Why is interpretability important for industrial applications?
+
+A) To provide greater accuracy
+
+B) To explain decisions to managers or comply with regulations
+
+C) Reduce computational complexity
+
+D) To implement deep learning techniques
+
+Answer: B
+
+-   Real-world data can often be incomplete, noisy or unorganized. What strategies do you follow when working with this kind of data?
+
+Answer: 
+Because real-world data can be incomplete, noisy, or irregular, when I work with such data, I first perform a data cleaning process. I identify missing values, impute them using appropriate methods, or remove them from the analysis. I use filtering techniques to reduce noise. I also apply methods such as standardization and normalization to organize the data and make it analyzable.
+
+
+
+## Chapter 2
+
+
 
 ```{r}
-1 + 1
+library(dslabs)
+```{r}
+data("polls_us_election_2016")
+
+
+```{r}
+# printing the first 10 rows of a dataset
+knitr::kable(head(polls_us_election_2016, 10))
+
+
+
+total_na <- sum(is.na(polls_us_election_2016))
+
+# Display the total number of NA values
+total_na
+
 ```
 
-My first assignment has two parts.
 
-## (a)
+```{r}
+polls_modified <- polls_us_election_2016
 
-## (b)
+# Replace NA values in numeric columns with birth year and in character/factor columns with first name
+polls_modified[] <- lapply(polls_modified, function(x) {
+  if (is.numeric(x)) {
+    x[is.na(x)] <- 1999  # Replace with your birth year
+  } else if (is.character(x) || is.factor(x)) {
+    x <- as.character(x)  # Convert factors to characters
+    x[is.na(x)] <- "Muammer"  # Replace with your first name
+  }
+  return(x)
+})
+
+# Display the first 10 rows of the modified dataset
+knitr::kable(head(polls_modified, 10))
+
+```

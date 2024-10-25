@@ -5,26 +5,53 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2020 - ongoing.
 
 # Work Experience
 
-## Employements
+-   CLONIFY LABS Company- Founder, August 2024
+The project is a business idea developed to make the production of personalised orthotics and prosthetics in the healthcare
+sector faster and more accurate. The project aims to modernize the production process of prosthetic molds by using 3D
+scanning and printing technologies.
 
-1.  Firm xxx, position xx, year xxx
 
-2.  Firm yyy, position yyy, year yyy
 
-## Internships
+# Internships
 
-1.  Firm aaa, position xx, year xxx
+-   Argela Yazılım ve Bilişim Teknolojileri San. ve Tic. A.Ş. , position inter, year 2024-Summer
 
-2.  Firm bbb, position yyy, year yyy
+
 
 # Projects
 
+-   MARKUT UAV Team - Student UAV Competition Finalist, November 2023 - Present
+We have been working on autonomous cargo unmanned aerial vehicles in the competition organized by the Robonation
+foundation for 22 years. I am responsible for team coordination and software in our finalist team.
+
+-   Raven Fighting UAV Team - TEKNOFEST, November 2021 - Present
+I have been involved in algorithm development, software, and electronics in the UCAV competition organized by
+TEKNOFEST. Our team, which has participated in the competition for 3 years, recently ranked 11th.
+
+-   Ekinoks Agricultural UGV Team - TEKNOFEST November 2022 - 2024
+I take on the role of liaison and software responsibilities for the team competing in the TEKNOFEST agricultural unmanned
+ground vehicle category.
+
+-   Asel Air Defense Team - TEKNOFEST January 2024 - 2024
+I am responsible for liaison and software for the team competing in the TEKNOFEST air defense systems category.
+
+-   ALKA AVCI RAAS - TEKNOFEST 1st November 2020 - September 2021
+Our project ranked 1st in the TEKNOFEST defense industry category. It consists of an electro-mechanical system designed to
+increase shooting accuracy by making the binocular system intelligent. I served as the software team captain
+
+
 # Competencies
 
-R, Quarto, Git, Python
+Python, C++, Embedded System, 3D vision 
 
-# Hobbies
+Robotics, Computer Vision, Operation Research,
+
+R, Quarto, Git, 
+
+
+[Download my CV](data/cv.pdf)
+
